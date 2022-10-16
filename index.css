@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.navigation{
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+    z-index: 1000;
+}
+
+h1, h4{
+    color: #2299aa;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    color: #2299aa;
+    font-size: 2rem;
+}
+
+.navbar-light, .navbar-nav, .nav-link{
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+/*button*/
+.btn{
+    background-color: #2299aa;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #ffffff;
+    border: none;
+}
+
+/*banner*/
+.banner, #my-works, #pricing{
+    background-color: #4544403c;
+}
+
+/*icon*/
+.icon{
+    color: #ffffff;
+    background-color: #2299aa;
+    height: 50px;
+    max-width: 50px;
+    width: 100%;
+    margin: auto;
+    padding: 17px;
+    background-size: 20%;
+    border-radius: 28px;
+}
+
+/*hr*/
+hr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #2299aa;
+    font-style: italic;
+}
